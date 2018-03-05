@@ -30,7 +30,7 @@ h1 {
 }
 
 nav {
-	margin: 1.5em 0 0 10%;
+	margin: 1.5em 0 0 18%;
 	float: right;
 	font-family: "Creepster";
 	font-size: 25px;
@@ -55,22 +55,6 @@ li a.active {
 
 li a:hover {
  color: #bd615e;
-}
-
-@media screen and (min-width : 705px) {
- .header-container {
-   flex-direction: row;
-   justify-content: space-between;
- }
-
-.logo {
-   margin-left: 2.3em;
- }
-
- nav {
-   align-self: center;
-   margin: 0 0.8em 0 0;
- }
 }
 
 section {
@@ -118,9 +102,8 @@ footer {
 
 
 .fa {
-	padding: 3px;
-	font-size: 20px;
-	width: 20px;
+	font-size: 26px;
+	width: 30px;
 	text-align: center;
 	text-decoration: none;
 	/*margin: 5px 2px;*/
@@ -130,6 +113,96 @@ footer {
    opacity: 0.6;
 }
 
-.fa-facebook, .fa-instagram {
+.fa-facebook, .fa-instagram, .fa-youtube{
   color: #bd615e;
+}
+
+
+/*****MEDIA QUERYS*****/
+
+@media screen and (min-width : 800px) {
+ .header-container {
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+.logo {
+   margin-left: 2.3em;
+ }
+
+ nav {
+   align-self: center;
+   margin: 0 0.8em 0 0;
+ }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .header-container {
+   	flex-direction: column;
+ }
+
+.logo {
+  max-width: 100%;
+	margin-left: 15%;
+ }
+
+ nav {
+  margin: 0.9em 2px 2px 0.2em;
+	font-size: 18px;
+ }
+	
+	iframe {
+		display:block;
+    width:100%;
+	}
+  
 }
