@@ -33,6 +33,10 @@ h1 {
 	
 }
 
+.liveText {
+	text-align: justify;
+}
+
 .header-container {
  display: flex;
  flex-direction: column;
@@ -49,7 +53,6 @@ h1 {
 
 nav {
 	margin: 1.5em 0 0 18%;
-	float: right;
 	font-family: "Creepster";
 	font-size: 25px;
 }
@@ -168,7 +171,7 @@ footer {
 
  nav {
    align-self: center;
-   margin: 0 0.8em 0 0;
+   margin: 1.5em 0px 0 12%;
  }
 }
 
@@ -179,7 +182,7 @@ footer {
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   
-  //CSS
+
   
 }
 
@@ -190,7 +193,14 @@ footer {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  //CSS
+    .logo {
+   margin-left: 2.3em;
+ }
+
+ nav {
+   align-self: center;
+   margin: 1.5em 0px 0 8%;
+ }
   
 }
 
@@ -200,8 +210,16 @@ footer {
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+   nav {
+	align-self: center;
+  margin: 0.9em 2px 2px 0.2em;
+ }
+	
+	.logo {
+  max-width: 100%;
+	margin-left: 5%;
+ }
   
-  //CSS
   
 }
 
@@ -212,7 +230,15 @@ footer {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  //CSS
+  nav {
+  margin: 0.9em 2px 2px 0.2em;
+	font-size: 22px;
+ }
+	
+	.logo {
+  max-width: 100%;
+	margin-left: 5%;
+ }
   
 }
 
@@ -232,8 +258,9 @@ footer {
  }
 
  nav {
-  margin: 0.9em 2px 2px 0.2em;
-	font-size: 18px;
+  /*margin: 0.9em 2px 2px 0.2em;*/
+	 margin: 0.9em 0px 2px 0.2em;
+	font-size: 20px;
  }
 	
 	iframe {
