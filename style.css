@@ -284,7 +284,8 @@ footer {
  }
 
  nav {
-	margin: -0.1em 0px 2px 0px;
+	 display: block;
+	margin: -0.1em 15px 2px 0px;
 	font-size: 15px;
 	text-align: center;
  }
