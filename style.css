@@ -9,7 +9,7 @@ html {
 
 body {
 	min-height: 100%;
-	font-family: "Mina";
+	font-family: "Stylish";
 }
 
 h1 {
@@ -290,6 +290,10 @@ footer {
 	iframe {
 		display:block;
     width:100%;
+	}
+	
+	.card {
+		width: 90%;
 	}
   
 }
