@@ -272,20 +272,21 @@ footer {
   ##Screen = B/w 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 570px) {
    .header-container {
    	flex-direction: column;
  }
 
 .logo {
-  max-width: 100%;
-	margin-left: 10%;
+  display: block;
+  margin: 0 auto;
+
  }
 
  nav {
-  /*margin: 0.9em 2px 2px 0.2em;*/
-	 margin: -0.1em 0px 2px 0.2em;
+	margin: -0.1em 0px 2px 0px;
 	font-size: 15px;
+	text-align: center;
  }
 	
 	iframe {
