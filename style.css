@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Creepster');
 @import url('https://fonts.googleapis.com/css?family=Mina|Plaster');
-@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Stylish');
 
 html {
 	height: 100%;
@@ -91,6 +91,20 @@ li a:hover {
 	color: #bd615e;
 }
 
+table {
+    border-collapse: collapse;
+	
+}
+
+table, th, td {
+  border: 1px solid black;
+	margin-bottom: 25px;
+}
+
+td {
+    padding: 10px;
+}
+
 
 section {
  display: flex;
@@ -151,6 +165,20 @@ footer {
 .fa-facebook, .fa-instagram, .fa-youtube{
   color: #bd615e;
 }
+
+/*BLOG*/
+
+.card {
+	background-color: white;
+	padding: 8px;
+	width: 50%;
+	text-align: center;
+	margin: 10px;
+	border-radius: 2px;
+	font-family: "Stylish";
+}
+
+
 
 
 /*****MEDIA QUERYS*****/
